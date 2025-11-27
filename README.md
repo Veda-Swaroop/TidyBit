@@ -56,8 +56,14 @@ With its simple GUI and clear logbox feedback, TidyBit makes file organization e
 - Supports most common file extensions
 - Clear error handling and user messages
 
-## Installation
-- Coming up as an Executable file.
+## ⚙️ Installation (Running from Source)
+If you are a developer or want to run the Python script directly:
+
+1. Clone the repository:
+   ```bash
+   https://github.com/Veda-Swaroop/TidyBit.git
+   pip install -r requirements.txt
+   python project.py
 
 ## 🚀 Usage
 
