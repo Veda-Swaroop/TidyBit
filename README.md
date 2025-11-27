@@ -85,8 +85,7 @@ TidyBit is just getting started! Here are some planned improvements and future d
 - [ ] **Cross‑platform support** – Extend compatibility to Linux and macOS  
 - [ ] **Enhanced error handling** – More detailed logs and clearer user feedback  
 - [ ] **Expanded file categories** – Support additional extensions and niche file types  
-- [ ] **Executable packaging** – Distribute as a standalone app for easy installation  
-- [ ] **UI/UX improvements** – Add theme options (e.g., dark mode) and refine interface design  
+- [ ] **Executable packaging** – Distribute as a standalone app for easy installation 
 - [ ] **Performance optimization** – Handle larger folders and thousands of files more efficiently  
 - [ ] **Community contributions** – Encourage plugins or custom categorization rules
 
