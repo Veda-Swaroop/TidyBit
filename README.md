@@ -4,10 +4,9 @@
 </p>
 
 # TidyBit - a simple file organizer
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-
+![Python](https://img.shields.io/badge/Python-3.10-306998?logo=python&logoColor=FFD43B)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-A31F34?logo=opensourceinitiative&logoColor=8A8B8C)
 
 ## 📹 Video Demo:  [Watch the demo on YouTube](https://www.youtube.com/watch?v=VIDEO_ID)
 
