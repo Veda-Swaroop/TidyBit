@@ -10,6 +10,11 @@
 
 ## 📹 Video Demo:  [Watch the demo on YouTube](https://www.youtube.com/watch?v=VIDEO_ID)
 
+## 📥 Download
+**For Windows Users:**
+Download the easy installer (no Python required):
+[**👉 Download TidyBit v1.0 Installer (.exe)**](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.0.0)
+
 ## 📷 Screenshots:
 
 <p align="center">
