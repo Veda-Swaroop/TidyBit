@@ -5,7 +5,8 @@
 
 # TidyBit - a simple file organizer
 ![Python](https://img.shields.io/badge/Python-3.10-306998?logo=python&logoColor=FFD43B)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+![Platform](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
+![Platform](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-A31F34?logo=opensourceinitiative&logoColor=8A8B8C)
 
 ## 📹 Video Demo:  [Watch the demo on YouTube](https://www.youtube.com/watch?v=VIDEO_ID)
