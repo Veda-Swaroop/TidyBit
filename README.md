@@ -110,7 +110,7 @@ Using **TidyBit** is straightforward. The interface guides you through four clea
 
 TidyBit is just getting started! Here are some planned improvements and future directions:
 
-- [ ] **Cross‑platform support** – Extend compatibility to Linux and macOS  
+- [x] **Cross‑platform support** – Extend compatibility to Linux  
 - [ ] **Enhanced error handling** – More detailed logs and clearer user feedback  
 - [ ] **Expanded file categories** – Support additional extensions and niche file types  
 - [x] **Executable packaging** – Distribute as a standalone app for easy installation 
