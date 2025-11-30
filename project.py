@@ -1,10 +1,12 @@
 # Project File
 
 import os
+import sys
 import shutil
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from file_ext import file_extensions
+from PIL import ImageTk, Image
 
 
 
@@ -13,6 +15,17 @@ def main():
     app_gui = App()
 
     app_gui.mainloop()
+
+# Helper function for executable
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS #type: ignore
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 def fetch_files(src):
     unfiltered_files = os.listdir(src)
@@ -74,10 +87,28 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        # Windows Setup
+        # Program Window Setup
         self.title("TidyBit - a simple file organizer")
         self.geometry("600x500")
-        self.iconbitmap("assets/images/app_icon.ico")
+
+        # Icon and font for Windows
+        if os.name == "nt":
+            log_font = ("Lucida Console", 12)
+            try:
+                icon_path = resource_path(os.path.join("assets", "images", "app_icon.ico"))
+                self.iconbitmap(icon_path)
+            except Exception:
+                    pass
+        # Icon and font for Linux
+        else:
+            log_font = ("Monospace", 12)
+            try:
+                icon_path = resource_path(os.path.join("assets", "images", "app_logo.png"))
+                img = Image.open(icon_path)
+                self.icon_image = ImageTk.PhotoImage(img)
+                self.iconphoto(False, self.icon_image)
+            except Exception:
+                pass
 
         # Grid Configuration
         self.grid_rowconfigure(2, weight=1) # Row 2 expands
@@ -105,7 +136,7 @@ class App(ctk.CTk):
         self.btn_2.grid(row=1, column=2, padx=10, pady=10, sticky="ew")
 
         # Text box
-        self.textbox = ctk.CTkTextbox(self, font=("Lucida Console", 12))
+        self.textbox = ctk.CTkTextbox(self, font=log_font)
         self.textbox.grid(row=2, column=0, columnspan=3, padx=10, pady=10, sticky="nsew")
         #self.textbox.tag_config("title", justify="center")
 
