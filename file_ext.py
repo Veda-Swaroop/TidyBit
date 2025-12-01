@@ -98,17 +98,5 @@ def main():
 
 
 
-# def identify_extension(b):
-#     # b = unknown extension
-#     for category, category_dict in file_extensions.items():
-#         for extn, extn_info in category_dict.items():
-#             if extn == b:
-#                 return extn, extn_info, category
-    
-#     return f"Extension not found"
-           
-
-
-
 if __name__ == "__main__":
     main()
