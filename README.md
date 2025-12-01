@@ -45,7 +45,7 @@ Download the easy installer (no Python required):
 
 ## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
 **Note**: 
-1. This program only works with files and not on directories/folders. So if there any directories/folders, it will simply ignore them. 
+1. The program works with only files and not with sub-directories or other folders. So if there any such sub-directories or other folders, it will simply ignore them. 
 2. Please check **file_ext.py** file to see the file-extensions this tools identifies.
 
 
