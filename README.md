@@ -12,21 +12,17 @@
 ## 📹 Video Demo:  [Watch the demo on YouTube](https://youtu.be/85Ts99_okq0?si=d2_2SD-RUv1o51TK)
 
 ## 📥 Download
+**[Download the latest version here](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.2.0)**
 
-### 🪟 For Windows OS:
-Download the easy installer (no Python required):
-[**👉 Download TidyBit v1.0 Installer (.exe)**](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.0.0)
+### 🪟 Windows Instructions
+1. Download the `.exe` setup file.
+2. Run the installer and follow the steps.
 
-### 🐧 For Linux (Ubuntu/Debian)
-[**👉 Download Linux Binary (.zip)**](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.0.0)
-
-**How to run on Linux:**
-1. Download and extract the zip file.
-2. Open your terminal in that folder.
-3. Make it executable and run:
-   ```bash
-   chmod +x TidyBit-Linux
-   ./TidyBit-Linux
+### 🐧 Linux Instructions
+1. Download the `.AppImage` file.
+2. Right-click the file -> Properties -> Permissions.
+3. Check **"Allow executing file as program"**.
+4. Double-click to run!
 
 ## 📷 Screenshots:
 
