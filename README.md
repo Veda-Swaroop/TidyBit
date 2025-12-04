@@ -27,16 +27,16 @@
 ## 📷 Screenshots:
 
 <p align="center">
-  <img src="assets/images/UI_1.png" alt="UI 1" width="250">
-  <img src="assets/images/UI_2.png" alt="UI 2" width="250">
+  <img src="assets/images/U1.png" alt="UI 1" width="250">
+  <img src="assets/images/U2.png" alt="UI 2" width="250">
 </p>
 <p align="center">
-  <img src="assets/images/UI_3.png" alt="UI 3" width="250">
-  <img src="assets/images/UI_4.png" alt="UI 4" width="250">
+  <img src="assets/images/U3.png" alt="UI 3" width="250">
+  <img src="assets/images/U4.png" alt="UI 4" width="250">
 </p>
 <p align="center">
-  <img src="assets/images/UI_5.png" alt="UI 5" width="250">
-  <img src="assets/images/UI_6.png" alt="UI 6" width="250">
+  <img src="assets/images/U5.png" alt="UI 5" width="250">
+  <img src="assets/images/U6.png" alt="UI 6" width="250">
 </p>
 
 ## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
@@ -107,11 +107,14 @@ Using **TidyBit** is straightforward. The interface guides you through four clea
 TidyBit is just getting started! Here are some planned improvements and future directions:
 
 - [x] **Cross‑platform support** – Extend compatibility to Linux  
-- [ ] **Enhanced error handling** – More detailed logs and clearer user feedback  
-- [ ] **Expanded file categories** – Support additional extensions and niche file types  
 - [x] **Executable packaging** – Distribute as a standalone app for easy installation 
-- [ ] **Performance optimization** – Handle larger folders and thousands of files more efficiently  
-- [ ] **Community contributions** – Encourage plugins or custom categorization rules
+- [x] **Progress Bar** - Progress Bar in UI
+- [x] **New UI framework** - Migrated from Custom Tkinter to PySide6 UI framework
+- [x] **Handling duplicate files** - Rename automatically for duplicate filenames
+- [x] **Enhanced error handling** – More detailed logs and clearer user feedback
+- [x] **Performance optimization** – Handle larger folders and thousands of files more efficiently  
+- [ ] **Expanded file categories** – Support additional extensions and niche file types   
+- [ ] **Community contributions** – Encourage plugins or custom categorization rules  
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
