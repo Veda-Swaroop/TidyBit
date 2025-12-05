@@ -4,26 +4,17 @@ import sys
 from pathlib import Path
 import shutil
 from file_ext import file_extensions
+from utils.resource_path import resource_path
 from PySide6.QtWidgets import (QMainWindow, QApplication, QLabel, QLineEdit, QPushButton, QGridLayout, QProgressBar,
                                  QWidget, QFileDialog, QTextEdit, QMessageBox)
 from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QIcon
 
 
-# Helper Function
-def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
-    try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
-        base_path = Path(sys._MEIPASS) #type: ignore
-    except Exception:
-        base_path = Path.cwd()
-
-    return str((base_path / relative_path).resolve())
-
+# Functions
 def fetch_files(src):
     unfiltered_files = Path(src)
-    files = [p.name for p in unfiltered_files.iterdir() if p.is_file() and not p.name.startswith(".")]
+    files = [p.name for p in unfiltered_files.iterdir() if p.is_file() and not p.name.startswith(".") and not p.name == "desktop.ini"]
     return files
 
 
@@ -533,7 +524,7 @@ if __name__ == "__main__":
     app.setStyle("Fusion")
     app.setStyleSheet(STYLESHEET)
     try:
-        icon_path = resource_path("assets/images/app_logo.png")
+        icon_path = resource_path("assets/app_logo.png")
         if Path(icon_path).exists():
             app.setWindowIcon(QIcon(icon_path))
     except:
