@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/images/app_logo.png" alt="TidyBit Logo" width="200">
+  <img src="assets/app_logo.png" alt="TidyBit Logo" width="200">
 </p>
 
 # TidyBit - a simple file organizer
