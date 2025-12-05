@@ -27,16 +27,16 @@
 ## 📷 Screenshots:
 
 <p align="center">
-  <img src="assets/images/U1.png" alt="UI 1" width="250">
-  <img src="assets/images/U2.png" alt="UI 2" width="250">
+  <img src="assets/screenshots/U1.png" alt="UI 1" width="250">
+  <img src="assets/screenshots/U2.png" alt="UI 2" width="250">
 </p>
 <p align="center">
-  <img src="assets/images/U3.png" alt="UI 3" width="250">
-  <img src="assets/images/U4.png" alt="UI 4" width="250">
+  <img src="assets/screenshots/U3.png" alt="UI 3" width="250">
+  <img src="assets/screenshots/U4.png" alt="UI 4" width="250">
 </p>
 <p align="center">
-  <img src="assets/images/U5.png" alt="UI 5" width="250">
-  <img src="assets/images/U6.png" alt="UI 6" width="250">
+  <img src="assets/screenshots/U5.png" alt="UI 5" width="250">
+  <img src="assets/screenshots/U6.png" alt="UI 6" width="250">
 </p>
 
 ## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
