@@ -24,6 +24,10 @@
 3. Check **"Allow executing file as program"**.
 4. Double-click to run!
 
+Note: If unable to run app on Linux, It might be due to FUSE (Filesystem in Userspace) version.
+Latest Ubuntu, Debian and other Linux distros may require FUSE installation.
+Please check this page for instructions: (https://github.com/AppImage/AppImageKit/wiki/FUSE)
+
 ## 📷 Screenshots:
 
 <p align="center">
