@@ -65,11 +65,7 @@ def identify_extension(b):
 
 # Html Table that displays file category and count for QTextEdit
 def create_category_table(group_dict):
-    """
-    Takes a dictionary {'Images': 5, 'Docs': 2} and returns 
-    a formatted string that aligns perfectly in QTextEdit.
-    """
-    # We define the style colors here (Grey text for names, White for counts)
+    # define the style colors here (Grey text for category names, White for counts)
     row_html = ""
     for key, value in group_dict.items():
         row_html += f"""
