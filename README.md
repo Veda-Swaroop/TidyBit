@@ -64,14 +64,18 @@ With its simple GUI and clear logbox feedback, TidyBit makes file organization e
 
 ## ✨ Features
 - Organizes files by category (documents, images, videos, audio, code, archives, etc.)
-- Simple GUI with logbox feedback
+- Clean UI built with PySide6
+- File categorization based on extension rules 
 - Step-by-step workflow:
   1. Validation
   2. Fetching Files
   3. Organizing Files
   4. Moving Files
+- Windows `.exe` and Linux AppImage builds 
 - Supports most common file extensions
 - Clear error handling and user messages
+- Configurable categories (coming soon)  
+
 
 ## ⚙️ Installation (Running from Source)
 If you are a developer or want to run the Python script directly:
@@ -111,7 +115,7 @@ Using **TidyBit** is straightforward. The interface guides you through four clea
 Here are some planned improvements and future directions:
 
 - [ ] **Expanded file categories** – Support additional extensions and niche file types
-- [ ] **Custom selection of file categories** - Add functionality to select custom file categories   
+- [ ] **Custom file categories selection** - Functionality to select custom file categories   
 - [ ] **Community contributions** – Encourage plugins or custom categorization rules  
 
 ## 🤝 Contributing
