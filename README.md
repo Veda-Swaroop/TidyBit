@@ -26,7 +26,7 @@
 
 **Note**: If unable to run app on Linux, It might be due to **FUSE (Filesystem in Userspace) version**.
 Latest Ubuntu, Debian and other Linux distros may require FUSE installation.
-Please check this page for instructions: (https://github.com/AppImage/AppImageKit/wiki/FUSE)
+Please check this page for instructions:[AppImage - FUSE] (https://github.com/AppImage/AppImageKit/wiki/FUSE)
 
 ## 📷 Screenshots:
 
