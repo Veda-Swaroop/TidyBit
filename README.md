@@ -9,7 +9,13 @@
 ![Platform](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-A31F34?logo=opensourceinitiative&logoColor=8A8B8C)
 
-## 📹 Video Demo:  [Watch the demo on YouTube](https://youtu.be/85Ts99_okq0?si=d2_2SD-RUv1o51TK)
+## 📹 Video Demo:  Watch on Youtube
+
+#### 🪟 Windows Demo
+[![Windows Demo](https://img.youtube.com/vi/cMDjuckLr0U/0.jpg)](https://www.youtube.com/watch?v=cMDjuckLr0U)
+
+#### 🐧 Linux Demo
+[![Linux Demo](https://img.youtube.com/vi/_gJDg9AWWsk/0.jpg)](https://www.youtube.com/watch?v=_gJDg9AWWsk)
 
 ## 📥 Download
 **[Download the latest version here](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.2.0)**
