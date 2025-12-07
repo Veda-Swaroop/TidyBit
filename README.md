@@ -108,16 +108,10 @@ Using **TidyBit** is straightforward. The interface guides you through four clea
 
 ## 🛠️ Roadmap
 
-TidyBit is just getting started! Here are some planned improvements and future directions:
+Here are some planned improvements and future directions:
 
-- [x] **Cross‑platform support** – Extend compatibility to Linux  
-- [x] **Executable packaging** – Distribute as a standalone app for easy installation 
-- [x] **Progress Bar** - Progress Bar in UI
-- [x] **New UI framework** - Migrated from Custom Tkinter to PySide6 UI framework
-- [x] **Handling duplicate files** - Rename automatically for duplicate filenames
-- [x] **Enhanced error handling** – More detailed logs and clearer user feedback
-- [x] **Performance optimization** – Handle larger folders and thousands of files more efficiently  
-- [ ] **Expanded file categories** – Support additional extensions and niche file types   
+- [ ] **Expanded file categories** – Support additional extensions and niche file types
+- [ ] **Custom selection of file categories** - Add functionality to select custom file categories   
 - [ ] **Community contributions** – Encourage plugins or custom categorization rules  
 
 ## 🤝 Contributing
