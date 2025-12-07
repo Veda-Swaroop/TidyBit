@@ -46,7 +46,7 @@ Please check this page for instructions:  [AppImage - FUSE](https://github.com/A
 ## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
 **Note**: 
 1. The program works with only files and not with sub-directories or other folders. So if there are any such sub-directories or other folders, it will simply ignore them. 
-2. Please check **file_ext.py** file to see the file-extensions this tools identifies.
+2. Please check the file - **file_ext.py** for the list of supported file types and extensions.
 
 
 ## 📖 Introduction
