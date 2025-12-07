@@ -115,7 +115,7 @@ Using **TidyBit** is straightforward. The interface guides you through four clea
 Here are some planned improvements and future directions:
 
 - [ ] **Expanded file categories** – Support additional extensions and niche file types
-- [ ] **Custom file categories selection** - Functionality to select custom file categories   
+- [ ] **Custom file category selection** - Functionality to select custom file categories   
 - [ ] **Community contributions** – Encourage plugins or custom categorization rules  
 
 ## 🤝 Contributing
