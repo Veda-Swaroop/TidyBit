@@ -1,7 +1,7 @@
 # Testing dictionary iteration
 
 file_extensions = {
-    "documents": {
+    "Documents": {
         ".doc": "Microsoft Word",
         ".docx": "Microsoft Word (XML)",
         ".pdf": "Portable Document Format",
@@ -9,25 +9,25 @@ file_extensions = {
         ".rtf": "Rich Text Format",
         ".odt": "OpenDocument Text"
     },
-    "spreadsheets": {
+    "Spreadsheets": {
         ".xls": "Microsoft Excel",
         ".xlsx": "Microsoft Excel (XML)",
         ".csv": "Comma-Separated Values",
         ".ods": "OpenDocument Spreadsheet"
     },
-    "presentations": {
+    "Presentations": {
         ".ppt": "Microsoft PowerPoint",
         ".pptx": "Microsoft PowerPoint (XML)",
         ".odp": "OpenDocument Presentation"
     },
-    "archives": {
+    "Archives": {
         ".zip": "ZIP Archive",
         ".rar": "RAR Archive",
         ".7z": "7-Zip Archive",
         ".tar": "Unix Archive",
         ".gz": "Gzip Compressed Archive"
     },
-    "code": {
+    "Code": {
         ".py": "Python Script",
         ".js": "JavaScript",
         ".html": "HyperText Markup Language",
@@ -37,21 +37,21 @@ file_extensions = {
         ".c": "C Source Code",
         ".cpp": "C++ Source Code"
     },
-    "system": {
+    "System": {
         ".exe": "Windows Executable",
         ".dll": "Dynamic Link Library",
         ".sys": "System File",
         ".bat": "Batch File",
         ".sh": "Shell Script"
     },
-    "data": {
+    "Data": {
         ".json": "JavaScript Object Notation",
         ".xml": "Extensible Markup Language",
         ".sql": "SQL Script",
         ".db": "Database File",
         ".sqlite": "SQLite Database"
     },
-    "images": {
+    "Images": {
         ".jpg": "JPEG Image",
         ".jpeg": "JPEG Image",
         ".png": "Portable Network Graphics",
@@ -66,7 +66,7 @@ file_extensions = {
         ".raw": "Raw Image Format",
         ".ico": "Icon File"
     },
-    "audio": {
+    "Audio": {
         ".mp3": "MPEG Audio Layer III",
         ".wav": "Waveform Audio File",
         ".aac": "Advanced Audio Coding",
@@ -78,7 +78,7 @@ file_extensions = {
         ".alac": "Apple Lossless Audio Codec",
         ".opus": "Opus Audio Codec"
     },
-    "video": {
+    "Video": {
         ".mp4": "MPEG-4 Video",
         ".avi": "Audio Video Interleave",
         ".mov": "QuickTime Movie",
@@ -95,6 +95,7 @@ file_extensions = {
 
 def main():
     ...
+           
 
 
 

@@ -12,10 +12,10 @@
 ## 📹 Video Demo:  Watch on Youtube
 
 #### 🪟 Windows Demo
-[![Windows Demo](https://img.youtube.com/vi/cMDjuckLr0U/0.jpg)](https://www.youtube.com/watch?v=cMDjuckLr0U)
+![Windows Demo](https://www.youtube.com/watch?v=cMDjuckLr0U)
 
 #### 🐧 Linux Demo
-[![Linux Demo](https://img.youtube.com/vi/_gJDg9AWWsk/0.jpg)](https://www.youtube.com/watch?v=_gJDg9AWWsk)
+![Linux Demo](https://www.youtube.com/watch?v=_gJDg9AWWsk)
 
 ## 📥 Download
 **[Download the latest version here](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.2.0)**
@@ -39,15 +39,14 @@ Please check this page for instructions:  [AppImage - FUSE](https://github.com/A
 <p align="center">
   <img src="assets/screenshots/UI_1.png" alt="UI 1" width="250">
   <img src="assets/screenshots/UI_2.png" alt="UI 2" width="250">
-</p>
-<p align="center">
   <img src="assets/screenshots/UI_3.png" alt="UI 3" width="250">
-  <img src="assets/screenshots/UI_4.png" alt="UI 4" width="250">
 </p>
 <p align="center">
+  <img src="assets/screenshots/UI_4.png" alt="UI 4" width="250">
   <img src="assets/screenshots/UI_5.png" alt="UI 5" width="250">
   <img src="assets/screenshots/UI_6.png" alt="UI 6" width="250">
 </p>
+
 
 ## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
 **Note**: 
