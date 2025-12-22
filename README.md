@@ -37,16 +37,16 @@ Please check this page for instructions:  [AppImage - FUSE](https://github.com/A
 ## 📷 Screenshots:
 
 <p align="center">
-  <img src="assets/screenshots/U1.png" alt="UI 1" width="250">
-  <img src="assets/screenshots/U2.png" alt="UI 2" width="250">
+  <img src="assets/screenshots/UI_1.png" alt="UI 1" width="250">
+  <img src="assets/screenshots/UI_2.png" alt="UI 2" width="250">
 </p>
 <p align="center">
-  <img src="assets/screenshots/U3.png" alt="UI 3" width="250">
-  <img src="assets/screenshots/U4.png" alt="UI 4" width="250">
+  <img src="assets/screenshots/UI_3.png" alt="UI 3" width="250">
+  <img src="assets/screenshots/UI_4.png" alt="UI 4" width="250">
 </p>
 <p align="center">
-  <img src="assets/screenshots/U5.png" alt="UI 5" width="250">
-  <img src="assets/screenshots/U6.png" alt="UI 6" width="250">
+  <img src="assets/screenshots/UI_5.png" alt="UI 5" width="250">
+  <img src="assets/screenshots/UI_6.png" alt="UI 6" width="250">
 </p>
 
 ## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
