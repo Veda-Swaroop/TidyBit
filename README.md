@@ -11,11 +11,9 @@
 
 ## 📹 Video Demo:  Watch on Youtube
 
-#### 🪟 Windows Demo
-![Windows Demo](https://www.youtube.com/watch?v=cMDjuckLr0U)
+#### 🪟 Windows - [Windows Demo](https://www.youtube.com/watch?v=cMDjuckLr0U)
 
-#### 🐧 Linux Demo
-![Linux Demo](https://www.youtube.com/watch?v=_gJDg9AWWsk)
+#### 🐧 Linux - [Linux Demo](https://www.youtube.com/watch?v=_gJDg9AWWsk)
 
 ## 📥 Download
 **[Download the latest version here](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.2.0)**
@@ -48,38 +46,43 @@ Please check this page for instructions:  [AppImage - FUSE](https://github.com/A
 </p>
 
 
-## 📝 Description: TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder. 
+## 📝 Description: 
+### TidyBit is an easy-to-use file organizer. It helps you organize messy files piled up in folders. The app comes with commonly used file types and file categories as rules. These rules define what files to identify and organize. The pre-defined rules are fully customizable. Add new rules. Modify or delete existing rules. An option to reset and restore to default rules is available in settings. 
 **Note**: 
-1. The program works with only files and not with sub-directories or other folders. So if there are any such sub-directories or other folders, it will simply ignore them. 
-2. Please check the file - **file_ext.py** for the list of supported file types and extensions.
+1. The program works only on files from source location and not on sub-directories. If there are sub-directories and other folders within source location, the app will ignore them. 
+2. Please check **Settings** for pre-defined file types and categories.
 
 
 ## 📖 Introduction
 
-Our computers often become cluttered with files scattered across Downloads, Desktop, or external drives. Manually sorting them is tedious and time‑consuming. **TidyBit** was built to solve this problem with a clean, beginner‑friendly interface.
+Our computers often become cluttered with files scattered across Downloads, Desktop, or within external drives. Manually sorting them is tedious and time‑consuming. **TidyBit** was built to solve this problem with a clean, beginner‑friendly interface.
 
-This lightweight Python tool helps you organize files in just four simple steps:
+The app functions in just four simple steps:
 1. **Validation** – Check source and target folder paths  
 2. **Fetch Files** – Display files from the source folder  
-3. **Organize Files** – Categorize files by extension (documents, images, videos, code, etc.)  
+3. **Organize Files** – Identify and categorize files based on rules defined in settings (documents, images, videos, code, etc.)  
 4. **Move Files** – Create subfolders and move files accordingly  
 
-With its simple GUI and clear logbox feedback, TidyBit makes file organization effortless and efficient.
+With its simple GUI and clear information display, TidyBit makes file organization effortless and efficient.
 
 
 ## ✨ Features
-- Organizes files by category (documents, images, videos, audio, code, archives, etc.)
-- Clean UI built with PySide6
-- File categorization based on extension rules 
+- Easy to use UI
+- Information display at each step of operation
+- Can handle large sized files and files on external drives
+- Progress bar displays real time file operation progress
+- Comes with pre-defned and fully customizable rules
+- Add, modify or delete rules
+- File organization based on rules 
 - Step-by-step workflow:
   1. Validation
   2. Fetching Files
   3. Organizing Files
   4. Moving Files
-- Windows `.exe` and Linux AppImage builds 
-- Supports most common file extensions
-- Clear error handling and user messages
-- Configurable categories (coming soon)  
+- Option to reset and restore to default rules
+- Clear error handling and user messages 
+- Supports most commonly used file types by default
+
 
 
 ## ⚙️ Installation (Running from Source)
@@ -112,16 +115,11 @@ Using **TidyBit** is straightforward. The interface guides you through four clea
    - Subfolders are created in the target directory.  
    - Files are moved into their respective categories with clear logbox feedback.  
 
-📷 The screenshots above illustrate each step in action.
-
 
 ## 🛠️ Roadmap
 
-Here are some planned improvements and future directions:
-
-- [ ] **Expanded file categories** – Support additional extensions and niche file types
-- [ ] **Custom file category selection** - Functionality to select custom file categories   
-- [ ] **Community contributions** – Encourage plugins or custom categorization rules  
+Here are some planned improvements and future directions: 
+- [ ] **Community contributions** – Encourage community suggestions and contributions.  
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
