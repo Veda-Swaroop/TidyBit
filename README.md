@@ -24,7 +24,7 @@ Choose your preferred way to install **TidyBit**:
 ---
 
 ### 🪟 Windows (Recommended)
-[![Get it from Microsoft](https://get.microsoft.com/images/en-us%20dark.svg)](https://apps.microsoft.com/store/detail/9PGJQVC129C0)
+[![Get it from Microsoft](https://get.microsoft.com/images/en-us%20light.svg)](https://apps.microsoft.com/store/detail/9PGJQVC129C0)
 
 ✔ Automatic updates  
 ✔ Recommended for most users  
