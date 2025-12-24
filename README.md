@@ -8,6 +8,8 @@
 ![Platform](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![Platform](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-A31F34?logo=opensourceinitiative&logoColor=8A8B8C)
+![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-Available-blue)
+[![tidybit](https://snapcraft.io/tidybit/badge.svg)](https://snapcraft.io/tidybit)
 
 ## 📹 Video Demo:  Watch on Youtube
 
@@ -16,17 +18,42 @@
 #### 🐧 Linux - [Linux Demo](https://www.youtube.com/watch?v=_gJDg9AWWsk)
 
 ## 📥 Download
-**[Download the latest version here](https://github.com/Veda-Swaroop/TidyBit/releases/tag/v1.2.0)**
 
-### 🪟 Windows Instructions
-1. Download the `.exe` setup file.
-2. Run the installer and follow the steps.
+Choose your preferred way to install **TidyBit**:
 
-### 🐧 Linux Instructions
-1. Download the `.AppImage` file.
-2. Right-click the file -> Properties -> Permissions.
-3. Check **"Allow executing file as program"**.
-4. Double-click to run!
+---
+
+### 🪟 Windows (Recommended)
+[![Get it from Microsoft](https://get.microsoft.com/images/en-us%20dark.svg)](https://apps.microsoft.com/store/detail/9PGJQVC129C0)
+
+✔ Automatic updates  
+✔ Recommended for most users  
+
+---
+
+### 🐧 Linux (Snap)
+[![Get it from the Snap Store](https://snapcraft.io/en/light/install.svg)](https://snapcraft.io/tidybit)
+
+✔ Easy installation  
+✔ Auto updates via Snap  
+
+---
+
+### 📦 Direct Download (GitHub Releases)
+[![GitHub release](https://img.shields.io/github/v/release/Veda-Swaroop/TidyBit?label=GitHub%20Releases)](https://github.com/Veda-Swaroop/TidyBit/releases)
+
+#### Windows
+1. Download the `.exe` setup file  
+2. Run the installer and follow the instructions  
+
+#### Linux (AppImage)
+1. Download the `.AppImage` file  
+2. Right-click → **Properties → Permissions**  
+3. Enable **“Allow executing file as program”**  
+4. Double-click to run  
+
+> 💡 Tip: Store versions are recommended for automatic updates and better system integration.
+
 
 **Note**: If unable to run app on Linux, It might be due to **FUSE (Filesystem in Userspace) version**.
 Latest Ubuntu, Debian and other Linux distros may require FUSE installation.
@@ -47,9 +74,9 @@ Please check this page for instructions:  [AppImage - FUSE](https://github.com/A
 
 
 ## 📝 Description: 
-### TidyBit is an easy-to-use file organizer. It helps you organize messy files piled up in folders. The app comes with commonly used file types and file categories as rules. These rules define what files to identify and organize. The pre-defined rules are fully customizable. Add new rules. Modify or delete existing rules. An option to reset and restore to default rules is available in settings. 
+### TidyBit is an easy-to-use file organizer app. It helps you organize messy files piled up in folders. It comes with commonly used file types and file categories as rules. These rules define what files to identify and organize. The pre-defined rules are fully customizable. Add new rules. Modify or delete existing rules. An option to reset and restore to default rules is available in settings. 
 **Note**: 
-1. The program works only on files from source location and not on sub-directories. If there are sub-directories and other folders within source location, the app will ignore them. 
+1. The app works only on files from source location and not on sub-directories. If there are sub-directories and other folders within source location, the app will ignore them. 
 2. Please check **Settings** for pre-defined file types and categories.
 
 
