@@ -97,6 +97,7 @@ With its simple GUI and clear information display, TidyBit makes file organizati
 - Easy to use UI
 - Information display at each step of operation
 - Can handle large sized files and files on external drives
+- Handles duplicate files. 
 - Progress bar displays real time file operation progress
 - Comes with pre-defned and fully customizable rules
 - Add, modify or delete rules
