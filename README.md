@@ -120,7 +120,7 @@ If you are a developer or want to run the Python script directly:
    ```bash
    https://github.com/Veda-Swaroop/TidyBit.git
    pip install -r requirements.txt
-   python main.py
+   python run.py
 
 ## 🚀 Usage
 
