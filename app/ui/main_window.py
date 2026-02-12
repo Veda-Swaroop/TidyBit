@@ -77,6 +77,7 @@ class FileMoverWorker(QThread):
             # Update ProgressBar to UI
             percent = int(i / total_files) * 100
             self.progress_signal.emit(percent)
+
         # Update stats to UI
         stats = {"moved": moved_count, "errors": error_count}
         self.finished_signal.emit(stats)
@@ -113,8 +114,12 @@ class App(QMainWindow):
 
         # Settings Button
         self.settings_btn = QPushButton()
-        settings_icon_path = resource_path("assets/settings_icon.svg")
-        self.settings_btn.setIcon(QIcon(settings_icon_path))
+        try:
+            settings_icon_path = resource_path("assets/settings_icon.png")
+            if Path(settings_icon_path).exists():
+                self.settings_btn.setIcon(QIcon(settings_icon_path))
+        except:
+            pass
         self.settings_btn.setFixedSize(35, 35)
         self.settings_btn.setFlat(True)
         self.settings_btn.setToolTip("Configure Extensions")
@@ -135,7 +140,6 @@ class App(QMainWindow):
         ver_font.setBold(True)
         ver_label.setFont(ver_font)
         ver_label.setStyleSheet("color: grey;")
-
 
 
         # Add settings button and title label to header layout

@@ -21,9 +21,9 @@ def main():
     app.setStyle("Fusion")
     app.setStyleSheet(STYLESHEET)
     try:
-        icon_path = resource_path("assets/app_logo.png")
-        if Path(icon_path).exists():
-            app.setWindowIcon(QIcon(icon_path))
+        app_icon_path = resource_path("assets/app_logo.png")
+        if Path(app_icon_path).exists():
+            app.setWindowIcon(QIcon(app_icon_path))
     except:
         pass
 

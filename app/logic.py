@@ -59,7 +59,7 @@ def identify_extension(b, data):
         if b in category_dict:
             return category
 
-    return f"others"   # If not found, retun others to prevent program crash.
+    return f"Unknown"   # If not found, retun Unknown to prevent program crash.
 
 # Html Table that displays file category and count for QTextEdit
 def create_category_table(group_dict):
