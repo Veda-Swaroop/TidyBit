@@ -18,7 +18,12 @@ A desktop file organizer app built with **Python and PySide6**, published on the
 ## Download
 
 ### Windows
-[![Get it from Microsoft](https://get.microsoft.com/images/en-us%20light.svg)](https://apps.microsoft.com/store/detail/9PGJQVC129C0)
+
+<a href="https://apps.microsoft.com/store/detail/9PGJQVC129C0">
+  <img src="https://get.microsoft.com/images/en-us%20light.svg"
+       alt="Get it from Microsoft"
+       width="160">
+</a>
 
 - Automatic updates
 - Recommended for most users
@@ -26,7 +31,12 @@ A desktop file organizer app built with **Python and PySide6**, published on the
 ---
 
 ### Linux (Snap)
-[![Get it from the Snap Store](https://snapcraft.io/en/light/install.svg)](https://snapcraft.io/tidybit)
+
+<a href="https://snapcraft.io/tidybit">
+  <img src="https://snapcraft.io/en/light/install.svg"
+       alt="Get it from the Snap Store"
+       width="160">
+</a>
 
 - Easy installation
 - Auto updates via Snap
